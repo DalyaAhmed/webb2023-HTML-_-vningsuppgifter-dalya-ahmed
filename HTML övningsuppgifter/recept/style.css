@@ -1,0 +1,11 @@
+img{
+    border-radius: 60%;
+}
+
+/* wrap the image in a container div element and give 
+it a display of grid . Then set the place-items property to center. */
+
+div {
+    display: grid;
+    place-items: center;
+}

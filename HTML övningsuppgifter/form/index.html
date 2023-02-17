@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register Form</title>
+    </head>
+    <body>
+        <h1>Race Registration</h1>
+
+        <form action="">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstname" placeholder="Firt Name" required />
+
+                <label>Last Name</label>
+                <input type="text" name="lastname" placeholder="Last Name" required/>
+            </div>
+
+            <div>
+                <!-- If we want to cinnect all the three inputs togather, then all the three inputs will have the same name atribute -->
+                <p>Select Race</p>
+                <input type="radio" name="race" id="fun" value="fun" />
+                <label for="fun">Fun Run 5k</label>
+
+                <input type="radio" name="race" id="half" value="half" />
+                <label for="half">Half Marathon</label>
+
+                <input type="radio" name="race" id="full" value="full" />
+                <label for="full">Full Marathon</label>
+            </div>
+            <br />
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="ex. @gamil.com" required/>
+
+                <label for="pass">Password</label>
+                <input type="text" name="pass" id="pass" placeholder="password" required/>
+            </div>
+            <br />
+            <div>
+                <label for="grupp">Select Age Grupp</label>
+                <select name="grupp" id="grupp">
+                    <option value="kids">under 18</option>
+                    <option value="adualt">18-50</option>
+                    <option value="senior">50-60</option>
+                </select>
+            </div>
+            <div>
+                <br>
+
+                <aside>Have a nice day</aside>
+                <button>Register</button>
+            </div>
+        </form>
+    </body>
+</html>
